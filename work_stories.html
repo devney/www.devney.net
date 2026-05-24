@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Stories | Matthew Devney</title>
+    <meta
+      name="description"
+      content="Work stories for Matthew Devney with expandable role details."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="resume-header">
+      <div class="container">
+        <a class="back-link" href="./index.html">← Back to home</a>
+        <h1>Work Stories</h1>
+        <p class="lead">Think of this page as the interview itself, but with enough space to tell the full story.  Click any role to expand the context.</p>
+      </div>
+    </header>
+
+    <main class="container section">
+      <section aria-label="Professional summary">
+        <h2>How To Read This Page</h2>
+        <p>A resume is intentionally compressed.  Interviews are also short on time.  This page is the long-form version: what the challenge was, why it mattered, how I approached it, and what happened next.</p>
+      </section>
+
+      <section aria-label="Professional summary">
+        <h2>The Throughline</h2>
+        <p>Systems engineering veteran focused on infrastructure as code, deep observability, and practical automation.  I help teams turn fragile, manual environments into reliable platforms that are easier to operate, cheaper to run, and faster to ship on.</p>
+      </section>
+
+      <section aria-label="Career highlights">
+        <h2>Fast Facts</h2>
+        <div class="fact-grid">
+          <article class="fact-card">
+            <h3>1,700+</h3>
+            <p>Security findings remediated through an AI-assisted SAST program.</p>
+          </article>
+          <article class="fact-card">
+            <h3>30%</h3>
+            <p>Annual cloud cost reduction from audit and remediation work.</p>
+          </article>
+          <article class="fact-card">
+            <h3>~40 hires</h3>
+            <p>L1/L2 operations team members hired and trained as founding lead.</p>
+          </article>
+          <article class="fact-card">
+            <h3>25+ years</h3>
+            <p>Production systems, reliability, and incident response leadership.</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-label="Operating principles">
+        <h2>How I Tend To Work</h2>
+        <div class="pill-list">
+          <span class="pill">Measure first, optimize second</span>
+          <span class="pill">Automate repetitive operations</span>
+          <span class="pill">Build clear runbooks and ownership</span>
+          <span class="pill">Prevent incidents, not just respond</span>
+          <span class="pill">Ship with guardrails and observability</span>
+          <span class="pill">Drive continuous service improvement</span>
+        </div>
+      </section>
+
+      <section aria-label="Technical scope">
+        <h2>Tools And Terrain</h2>
+        <div class="resume-list">
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="scope-iac">
+              <span>
+                <span class="resume-role">Infrastructure as Code & Automation</span>
+                <span class="resume-meta">Terraform, Ansible, SaltStack, Puppet, Chef, Python, Bash</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="scope-iac" class="resume-panel" hidden>
+              <p>Build repeatable provisioning and operational workflows that reduce drift and improve deployment confidence.</p>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="scope-observability">
+              <span>
+                <span class="resume-role">Monitoring & Observability</span>
+                <span class="resume-meta">Grafana, Prometheus, SignalFX, Zabbix, Splunk, ELK, New Relic</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="scope-observability" class="resume-panel" hidden>
+              <p>Define SLIs/SLOs, build dashboards that drive action, and create alerting that catches real risk without overwhelming teams.</p>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="scope-cloud">
+              <span>
+                <span class="resume-role">Cloud, Platform & Data Systems</span>
+                <span class="resume-meta">AWS, Kubernetes, VMware, Kafka, NiFi, Airflow, MySQL, PostgreSQL, MongoDB</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="scope-cloud" class="resume-panel" hidden>
+              <p>Operate platform services used by engineering orgs, with emphasis on uptime, cost control, and production readiness.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-label="Work history">
+        <h2>Tell Me About Each Role</h2>
+        <div class="resume-list">
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-nike-l4">
+              <span>
+                <span class="resume-role">Nike — Lead Software Engineer - BAAT team</span>
+                <span class="resume-meta">06/2022 – 04/2026 · Beaverton, OR</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-nike-l4" class="resume-panel" hidden>
+              <p>After a short stint on the GitHub team where I implemented some Actions to automate housekeeping, I landed on the Build And Agile Tools (BAAT) team which manages Jira and Confluence and a third Atlassian app Crowd which helps to manage those.  My main focus was the Jenkins pipelines that roll out these apps.</p>
+              <p>Over the next year I added features to these pipelines: blue/green deployments, proper tagging, unit tests and code coverage, and of course optimizing for reduced cost.  I was able to bring these pipelines into 100% compliance with all applicable corporate requirements and standards, and reduce cost by 30%.</p>
+              <p>Once I implemented code scanning our code scanner identified about 1,700 vulnerabilities across all the pipelines.  I found AI to be very useful in resolving these, and quickly got the number down to 0.</p>
+              <p>Corporate decisions above my pay grade put our team in charge of Miro, Lucid, and Figma, three near-identical whiteboarding SAAS tools.  Once again there were no processes, so the first thing to do was work out who does what and how things like escalations are done.  The next thing was just to get a handle on the tool itself, so I used Cursor AI to create several dashboards to display availability and license info.</p>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-nike-l4"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-nike-l4" class="tools-panel" hidden>
+                <ul>
+                  <li>GitHub Actions</li>
+                  <li>Jenkins</li>
+                  <li>groovy</li>
+                  <li>json</li>
+                  <li>New Relic</li>
+                  <li>Splunk</li>
+                  <li>bash</li>
+                  <li>python</li>
+                  <li>Jira</li>
+                  <li>Confluence</li>
+                  <li>CI/CD</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-nike-cse">
+              <span>
+                <span class="resume-role">Nike — Customer Success Engineer, L2 Team Lead</span>
+                <span class="resume-meta">06/2021 – 06/2022</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-nike-cse" class="resume-panel" hidden>
+              <p>Nike had a problem.  Nike has literally over 1,000 technical teams, and they generally need similar things.  Every team needs a kubernetes cluster (for example), so every team spins up a kubernetes cluster, and now we have 1,000 kubernetes clusters all configured differently, and who knows whether they're patched or secure or use proper RBAC or anything, really.</p>
+              <p>They called the solution "Platform Strategy" and the general idea is Nike is going to create a management interface so when a team needs a kubernetes cluster, they clicky-click through a form and a cluster gets spun up for them.  This cluster starts in compliance with all the corporate policies, and it's maintained centrally so it remains in compliance.  We had 14 of these platforms.</p>
+              <p>Support is part of any mature service offering, and that's where I came in.  They created a "Customer Success Engineering" team and I was the team lead.  They told me they were going to hire 40 engineers and I don't want to train that many people, so I created a handbook of how to be a Customer Success Engineer: all the access we need and how to request it; CSE-focused documentation on how to support our 14 platforms; I documented polices about how to interact with customers and dev teams, but first I had to create those policies.</p>
+              <p>I interviewed over 100 candidates, and we did hire about 40 engineers in 6 time zones.  The other major focus of this role was training and mentoring these engineers.  In my role as Lead with decades of experience, I tried to pass on as much knowledge as I could, but more importantly I tried to teach these engineers modes of thinking that help with troubleshooting and problem solving.</p>
+              <p>At some point a corporate decision was made to outsource this work, so I smoothly passed the whole enterprise off to an external contract partner and moved on to my second role at Nike.</p>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-nike-cse"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-nike-cse" class="tools-panel" hidden>
+                <ul>
+                  <li>Jira</li>
+                  <li>Confluence</li>
+                  <li>Crowd</li>
+                  <li>Kubernetes</li>
+                  <li>Kafka</li>
+                  <li>NiFi</li>
+                  <li>Airflow</li>
+                  <li>Operational runbooks + handbooks</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-vectra">
+              <span>
+                <span class="resume-role">Vectra.ai — DevOps Engineer</span>
+                <span class="resume-meta">10/2020 – 02/2021</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-vectra" class="resume-panel" hidden>
+              <p>Vectra had no monitoring of any kind.  Is the service up?  Who knows?</p>
+              <p>This was a 4 month contract.  I was brought in to fix that one problem: Make them have monitoring.</p>
+              <p>So I set them up with Zabbix.  Why Zabbix?  Because zabbix was 20 years old and thoroughly tested, and because it has alerting and trending in one package.  Because it's common so they should have no problem hiring someone to manage it after me.</p>
+              <p>So I created a Salt State File to spin up a zabbix server, and ran it to create the server.  And I created a Salt State File to install the zabbix client, and integrated that into the existing server provisioning system.  And I created dashboards that showed trends for various metrics, and I created alerts to email the team if any of these metrics breached defined thresholds.</p>
+              <ul>
+                <li>Implemented enterprise-wide monitoring with Zabbix.</li>
+                <li>Automated Zabbix server and agent deployments using SaltStack.</li>
+                <li>Acted as a primary incident responder for SRE and developer customers.</li>
+              </ul>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-vectra"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-vectra" class="tools-panel" hidden>
+                <ul>
+                  <li>Zabbix</li>
+                  <li>SaltStack</li>
+                  <li>Monitoring + incident response practices</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-bloomfire">
+              <span>
+                <span class="resume-role">Bloomfire — Senior Site Reliability Engineer</span>
+                <span class="resume-meta">11/2019 – 11/2020</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-bloomfire" class="resume-panel" hidden>
+              <p>Interview version: We had to modernize core infrastructure without slowing down product growth.</p>
+              <ul>
+                <li>Converted legacy Chef infrastructure to Ansible.</li>
+                <li>Upgraded Ubuntu 16 to 18 and migrated services from Upstart to systemd.</li>
+                <li>Rolled out a new SaaS app ecosystem in an additional AWS region.</li>
+                <li>Responded to incidents and proactively handled alerts before service impact.</li>
+              </ul>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-bloomfire"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-bloomfire" class="tools-panel" hidden>
+                <ul>
+                  <li>Chef</li>
+                  <li>Ansible</li>
+                  <li>Upstart</li>
+                  <li>systemd</li>
+                  <li>Ubuntu</li>
+                  <li>AWS</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-sambatv">
+              <span>
+                <span class="resume-role">SambaTV — Lead Site Reliability Engineer</span>
+                <span class="resume-meta">03/2017 – 10/2019</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-sambatv" class="resume-panel" hidden>
+              <p>Interview version: This was a transformation role focused on modern SRE practices and better operational cadence.</p>
+              <ul>
+                <li>Implemented Agile methods and formalized incident response processes.</li>
+                <li>Administered AWS stack including EC2, S3, IAM, and Route 53.</li>
+                <li>Modernized observability from Nagios to Sensu, PagerDuty, Prometheus, and Grafana.</li>
+                <li>Built Ansible automation to deploy full ELK stacks.</li>
+              </ul>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-sambatv"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-sambatv" class="tools-panel" hidden>
+                <ul>
+                  <li>AWS (EC2, S3, IAM, Route 53)</li>
+                  <li>Nagios</li>
+                  <li>Sensu</li>
+                  <li>PagerDuty</li>
+                  <li>Prometheus</li>
+                  <li>Grafana</li>
+                  <li>Ansible</li>
+                  <li>ELK stack</li>
+                  <li>Incident response + on-call practices</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="job-history">
+              <span>
+                <span class="resume-role">Historical Experience (1994 – 2009)</span>
+                <span class="resume-meta">Systems Administration and Engineering</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="job-history" class="resume-panel" hidden>
+              <p>Experience across Yahoo!, Mozilla, Trulia.com, InTicketing, Penguin Computing, and Servepath.  Detailed chronology available on request.</p>
+              <p class="small">This period built the systems foundation that shaped later work in platform engineering and SRE leadership.</p>
+              <button
+                class="tools-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="tools-job-history"
+              >
+                <span class="resume-role">In this role I used</span>
+                <span class="chevron">▼</span>
+              </button>
+              <div id="tools-job-history" class="tools-panel" hidden>
+                <ul>
+                  <li>Systems administration tooling + practices (details on request)</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-label="Certifications">
+        <h2>Formal Credentials</h2>
+        <div class="resume-list">
+          <article class="resume-item">
+            <button class="resume-toggle" type="button" aria-expanded="false" aria-controls="cert-aws">
+              <span>
+                <span class="resume-role">AWS Certified Solutions Architect - Associate (SAA)</span>
+                <span class="resume-meta">Active credential</span>
+              </span>
+              <span class="chevron">▼</span>
+            </button>
+            <div id="cert-aws" class="resume-panel" hidden>
+              <p>Credential listed on resume profile and LinkedIn certifications.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="small">© <span id="year"></span> Devney.  All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./resume.js"></script>
+  </body>
+</html>
