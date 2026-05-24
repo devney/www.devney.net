@@ -50,7 +50,7 @@ h1 {
 
 /* Preserve two spaces after periods from HTML source. */
 .lead,
-.resume-panel,
+.story-panel,
 main.container.section > section > p,
 #about > p:not(.small),
 .card p,
@@ -132,7 +132,7 @@ h2 {
   font-size: 0.9rem;
 }
 
-.resume-header {
+.work-stories-header {
   padding: 3rem 0 1.2rem;
 }
 
@@ -141,20 +141,20 @@ h2 {
   text-decoration: none;
 }
 
-.resume-list {
+.story-list {
   display: grid;
   gap: 0.8rem;
   margin: 1rem 0 2.2rem;
 }
 
-.resume-item {
+.story-item {
   border: 1px solid var(--border);
   border-radius: 0.8rem;
   background: color-mix(in hsl, var(--surface), black 10%);
   overflow: clip;
 }
 
-.resume-toggle {
+.story-toggle {
   width: 100%;
   border: 0;
   background: transparent;
@@ -169,12 +169,12 @@ h2 {
   cursor: pointer;
 }
 
-.resume-role {
+.story-role {
   display: block;
   font-weight: 600;
 }
 
-.resume-meta {
+.story-meta {
   color: var(--muted);
   font-size: 0.92rem;
 }
@@ -185,22 +185,41 @@ h2 {
   transition: transform 160ms ease;
 }
 
-.resume-toggle[aria-expanded="true"] .chevron {
+.story-toggle[aria-expanded="true"] .chevron {
   transform: rotate(180deg);
 }
 
-.resume-panel {
+.story-panel {
   padding: 0 1rem 1rem;
   color: var(--muted);
 }
 
-.resume-panel[hidden] {
+.story-panel[hidden] {
   display: none;
 }
 
-.resume-panel ul {
+.story-panel ul {
   margin: 0.6rem 0 0;
   padding-left: 1.2rem;
+}
+
+.cert-preview {
+  display: block;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  line-height: 0;
+}
+
+.cert-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.cert-preview:hover img {
+  opacity: 0.92;
 }
 
 .tools-toggle {
