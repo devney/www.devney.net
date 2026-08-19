@@ -50,7 +50,7 @@ h1 {
 
 /* Preserve two spaces after periods from HTML source. */
 .lead,
-.story-panel,
+.story-panel p,
 main.container.section > section > p,
 #about > p:not(.small),
 .card p,
@@ -198,8 +198,12 @@ h2 {
   display: none;
 }
 
+.story-panel p {
+  margin: 0 0 0.7em;
+}
+
 .story-panel ul {
-  margin: 0.6rem 0 0;
+  margin: 0.4rem 0 0;
   padding-left: 1.2rem;
 }
 
