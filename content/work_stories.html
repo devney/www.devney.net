@@ -8,26 +8,21 @@
       name="description"
       content="Work stories for Matthew Devney with expandable role details."
     />
-    <link rel="stylesheet" href="./styles.css?v=2" />
+    <link rel="stylesheet" href="./styles.css?v=4" />
   </head>
   <body>
     <header class="work-stories-header">
       <div class="container">
         <a class="back-link" href="./index.html">← Back to home</a>
         <h1>Work Stories</h1>
-        <p class="lead">Think of this page as the interview itself, but with enough space to tell the full story.  Click any role to expand the context.</p>
       </div>
     </header>
 
     <main class="container section">
       <section aria-label="Professional summary">
-        <h2>How To Read This Page</h2>
-        <p>A resume is intentionally compressed.  Interviews are also short on time.  This page is the long-form version: what the challenge was, why it mattered, how I approached it, and what happened next.</p>
-      </section>
-
-      <section aria-label="Professional summary">
-        <h2>The Throughline</h2>
-        <p>Systems engineering veteran focused on infrastructure as code, deep observability, and practical automation.  I help teams turn fragile, manual environments into reliable platforms that are easier to operate, cheaper to run, and faster to ship on.</p>
+        <h2>What's This?</h2>
+        <p>A resume is intentionally compressed.  Interviews are also short on time.  This page is the long-form version: what the challenge was, why it mattered, how I approached it, and what happened next.  Think of this page as the interview itself, but with enough space to tell the full story.</p>
+        <p>Click any role to expand the context.</p>
       </section>
 
       <section aria-label="Career highlights">
@@ -47,31 +42,19 @@
           </article>
           <article class="fact-card">
             <h3>25+ years</h3>
-            <p>Production systems, reliability, and incident response leadership.</p>
+            <p>Production systems, DevOps, site reliability engineering, and incident response leadership.</p>
           </article>
         </div>
       </section>
 
-      <section aria-label="Operating principles">
-        <h2>How I Tend To Work</h2>
-        <div class="pill-list">
-          <span class="pill">Measure first, optimize second</span>
-          <span class="pill">Automate repetitive operations</span>
-          <span class="pill">Build clear runbooks and ownership</span>
-          <span class="pill">Prevent incidents, not just respond</span>
-          <span class="pill">Ship with guardrails and observability</span>
-          <span class="pill">Drive continuous service improvement</span>
-        </div>
-      </section>
-
       <section aria-label="Technical scope">
-        <h2>Tools And Terrain</h2>
+        <h2>Tools I Have Worked With</h2>
         <div class="story-list">
           <article class="story-item">
             <button class="story-toggle" type="button" aria-expanded="false" aria-controls="scope-iac">
               <span>
                 <span class="story-role">Infrastructure as Code & Automation</span>
-                <span class="story-meta">Terraform, Ansible, SaltStack, Puppet, Chef, Python, Bash</span>
+                <span class="story-meta">Terraform, Ansible, SaltStack, Puppet, Chef, Cfengine, CloudFormation, Python, Bash</span>
               </span>
               <span class="chevron">▼</span>
             </button>
@@ -84,7 +67,7 @@
             <button class="story-toggle" type="button" aria-expanded="false" aria-controls="scope-observability">
               <span>
                 <span class="story-role">Monitoring & Observability</span>
-                <span class="story-meta">Grafana, Prometheus, SignalFX, Zabbix, Splunk, ELK, New Relic</span>
+                <span class="story-meta">Grafana, Prometheus, SignalFX, Zabbix, Splunk, ELK, New Relic, Nagios, Sensu, PagerDuty, OpsGenie, Atlassian StatusPage</span>
               </span>
               <span class="chevron">▼</span>
             </button>
@@ -97,7 +80,7 @@
             <button class="story-toggle" type="button" aria-expanded="false" aria-controls="scope-cloud">
               <span>
                 <span class="story-role">Cloud, Platform & Data Systems</span>
-                <span class="story-meta">AWS, Kubernetes, VMware, Kafka, NiFi, Airflow, MySQL, PostgreSQL, MongoDB</span>
+                <span class="story-meta">AWS, Kubernetes, VMware, Kafka, NiFi, Airflow, MySQL, PostgreSQL, MongoDB, DynamoDB, Elasticsearch, Redis, Memcached</span>
               </span>
               <span class="chevron">▼</span>
             </button>
@@ -109,7 +92,7 @@
       </section>
 
       <section aria-label="Work history">
-        <h2>Tell Me About Each Role</h2>
+        <h2>Tell Us About Each Role</h2>
         <div class="story-list">
           <article class="story-item">
             <button class="story-toggle" type="button" aria-expanded="false" aria-controls="job-nike-l4">
@@ -349,10 +332,10 @@
             <div id="cert-aws" class="story-panel" hidden>
               <a
                 class="cert-preview"
-                href="./certificates/aws-certified-solutions-architect-associate.pdf"
+                href="./assets/aws-certified-solutions-architect-associate.pdf"
               >
                 <img
-                  src="./certificates/aws-certified-solutions-architect-associate.png"
+                  src="./assets/aws-certified-solutions-architect-associate.png"
                   alt="AWS Certified Solutions Architect - Associate certificate for Matthew Devney"
                   width="1584"
                   height="1224"

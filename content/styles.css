@@ -43,7 +43,6 @@ h1 {
 }
 
 .lead {
-  max-width: 60ch;
   color: var(--muted);
   font-size: 1.1rem;
 }
@@ -112,8 +111,14 @@ h2 {
   margin-top: 0;
 }
 
-.card p {
+.card p,
+.card ul {
   color: var(--muted);
+}
+
+.card ul {
+  margin: 0.4rem 0 1rem;
+  padding-left: 1.2rem;
 }
 
 .card a {

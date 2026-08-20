@@ -1,0 +1,7 @@
+aws_region           = "us-west-2"
+hostname             = "www.devney.net"
+alternate_hostnames  = ["devney.net"]
+attach_custom_domain = false
+# price_class        = "PriceClass_100"
+basic_auth_username  = "user"
+basic_auth_password  = "change-me"
