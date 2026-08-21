@@ -8,7 +8,7 @@
       name="description"
       content="Work stories for Matthew Devney with expandable role details."
     />
-    <link rel="stylesheet" href="./styles.css?v=4" />
+    <link rel="stylesheet" href="./styles.css?v=6" />
   </head>
   <body>
     <header class="work-stories-header">
@@ -95,14 +95,21 @@
         <h2>Tell Us About Each Role</h2>
         <div class="story-list">
           <article class="story-item">
-            <button class="story-toggle" type="button" aria-expanded="false" aria-controls="job-nike-l4">
+            <button class="story-toggle" type="button" aria-expanded="false" aria-controls="job-nike">
               <span>
-                <span class="story-role">Nike — Lead Software Engineer - BAAT team</span>
-                <span class="story-meta">06/2022 – 04/2026 · Beaverton, OR</span>
+                <span class="story-role">Nike — Lead Software Engineer | L2 team lead</span>
+                <span class="story-meta">06/2021 – 04/2026 · Beaverton, OR</span>
               </span>
               <span class="chevron">▼</span>
             </button>
-            <div id="job-nike-l4" class="story-panel" hidden>
+            <div id="job-nike" class="story-panel" hidden>
+              <h3>Customer Success Engineer - L2 Team Lead</h3>
+              <p>Nike had a problem.  Nike has literally over 1,000 technical teams, and they generally need similar things.  Every team needs a kubernetes cluster (for example), so every team spins up a kubernetes cluster, and now we have 1,000 kubernetes clusters all configured differently, and who knows whether they're patched or secure or use proper RBAC or anything, really.</p>
+              <p>They called the solution "Platform Strategy" and the general idea is Nike is going to create a management interface so when a team needs a kubernetes cluster, they clicky-click through a form and a cluster gets spun up for them.  This cluster starts in compliance with all the corporate policies, and it's maintained centrally so it remains in compliance.  We had 14 of these platforms.</p>
+              <p>Support is part of any mature service offering, and that's where I came in.  They created a "Customer Success Engineering" team and I was the team lead.  They told me they were going to hire 40 engineers and I don't want to train that many people, so I created a handbook of how to be a Customer Success Engineer: all the access we need and how to request it; CSE-focused documentation on how to support our 14 platforms; I documented polices about how to interact with customers and dev teams, but first I had to create those policies.</p>
+              <p>I interviewed over 100 candidates, and we did hire about 40 engineers in 6 time zones.  The other major focus of this role was training and mentoring these engineers.  In my role as Lead with decades of experience, I tried to pass on as much knowledge as I could, but more importantly I tried to teach these engineers modes of thinking that help with troubleshooting and problem solving.</p>
+              <p>At some point a corporate decision was made to outsource this work, so I smoothly passed the whole enterprise off to an external contract partner and moved on to my second role at Nike.</p>
+              <h3>Lead Software Engineer - BAAT team</h3>
               <p>After a short stint on the GitHub team where I implemented some Actions to automate housekeeping, I landed on the Build And Agile Tools (BAAT) team which manages Jira and Confluence and a third Atlassian app Crowd which helps to manage those.  My main focus was the Jenkins pipelines that roll out these apps.</p>
               <p>Over the next year I added features to these pipelines: blue/green deployments, proper tagging, unit tests and code coverage, and of course optimizing for reduced cost.  I was able to bring these pipelines into 100% compliance with all applicable corporate requirements and standards, and reduce cost by 30%.</p>
               <p>Once I implemented code scanning our code scanner identified about 1,700 vulnerabilities across all the pipelines.  I found AI to be very useful in resolving these, and quickly got the number down to 0.</p>
@@ -111,53 +118,12 @@
                 class="tools-toggle"
                 type="button"
                 aria-expanded="false"
-                aria-controls="tools-job-nike-l4"
+                aria-controls="tools-job-nike"
               >
                 <span class="story-role">In this role I used</span>
                 <span class="chevron">▼</span>
               </button>
-              <div id="tools-job-nike-l4" class="tools-panel" hidden>
-                <ul>
-                  <li>GitHub Actions</li>
-                  <li>Jenkins</li>
-                  <li>groovy</li>
-                  <li>json</li>
-                  <li>New Relic</li>
-                  <li>Splunk</li>
-                  <li>bash</li>
-                  <li>python</li>
-                  <li>Jira</li>
-                  <li>Confluence</li>
-                  <li>CI/CD</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-
-          <article class="story-item">
-            <button class="story-toggle" type="button" aria-expanded="false" aria-controls="job-nike-cse">
-              <span>
-                <span class="story-role">Nike — Customer Success Engineer, L2 Team Lead</span>
-                <span class="story-meta">06/2021 – 06/2022</span>
-              </span>
-              <span class="chevron">▼</span>
-            </button>
-            <div id="job-nike-cse" class="story-panel" hidden>
-              <p>Nike had a problem.  Nike has literally over 1,000 technical teams, and they generally need similar things.  Every team needs a kubernetes cluster (for example), so every team spins up a kubernetes cluster, and now we have 1,000 kubernetes clusters all configured differently, and who knows whether they're patched or secure or use proper RBAC or anything, really.</p>
-              <p>They called the solution "Platform Strategy" and the general idea is Nike is going to create a management interface so when a team needs a kubernetes cluster, they clicky-click through a form and a cluster gets spun up for them.  This cluster starts in compliance with all the corporate policies, and it's maintained centrally so it remains in compliance.  We had 14 of these platforms.</p>
-              <p>Support is part of any mature service offering, and that's where I came in.  They created a "Customer Success Engineering" team and I was the team lead.  They told me they were going to hire 40 engineers and I don't want to train that many people, so I created a handbook of how to be a Customer Success Engineer: all the access we need and how to request it; CSE-focused documentation on how to support our 14 platforms; I documented polices about how to interact with customers and dev teams, but first I had to create those policies.</p>
-              <p>I interviewed over 100 candidates, and we did hire about 40 engineers in 6 time zones.  The other major focus of this role was training and mentoring these engineers.  In my role as Lead with decades of experience, I tried to pass on as much knowledge as I could, but more importantly I tried to teach these engineers modes of thinking that help with troubleshooting and problem solving.</p>
-              <p>At some point a corporate decision was made to outsource this work, so I smoothly passed the whole enterprise off to an external contract partner and moved on to my second role at Nike.</p>
-              <button
-                class="tools-toggle"
-                type="button"
-                aria-expanded="false"
-                aria-controls="tools-job-nike-cse"
-              >
-                <span class="story-role">In this role I used</span>
-                <span class="chevron">▼</span>
-              </button>
-              <div id="tools-job-nike-cse" class="tools-panel" hidden>
+              <div id="tools-job-nike" class="tools-panel" hidden>
                 <ul>
                   <li>Jira</li>
                   <li>Confluence</li>
@@ -167,6 +133,15 @@
                   <li>NiFi</li>
                   <li>Airflow</li>
                   <li>Operational runbooks + handbooks</li>
+                  <li>GitHub Actions</li>
+                  <li>Jenkins</li>
+                  <li>groovy</li>
+                  <li>json</li>
+                  <li>New Relic</li>
+                  <li>Splunk</li>
+                  <li>bash</li>
+                  <li>python</li>
+                  <li>CI/CD</li>
                 </ul>
               </div>
             </div>
@@ -218,13 +193,17 @@
               <span class="chevron">▼</span>
             </button>
             <div id="job-bloomfire" class="story-panel" hidden>
-              <p>Interview version: We had to modernize core infrastructure without slowing down product growth.</p>
+              <p>Bloomfire just had not concentrated on their software infrastructure for a while and it was all creaking with old age.</p>
               <ul>
-                <li>Converted legacy Chef infrastructure to Ansible.</li>
-                <li>Upgraded Ubuntu 16 to 18 and migrated services from Upstart to systemd.</li>
-                <li>Rolled out a new SaaS app ecosystem in an additional AWS region.</li>
-                <li>Responded to incidents and proactively handled alerts before service impact.</li>
+                <li>The version of ssh that they were using was so old that all the ciphers it supported had been deprecated, and chef-solo couldn't ssh to modern servers.  Each time they spun up an instance they would manually ssh to that instance and enable old, deprecated ciphers.</li>
+                <li>The version of chef-solo they used depended on that old ssh, so they couldn't upgrade ssh.  Also it wouldn't run on modern ubuntu because of openssl and ohai version incompatibility, and some dependency headers mismatch modern libraries.</li>
+                <li>The product apps were set up to start from Upstart, which was unavailable in modern versions of Ubuntu.</li>
               </ul>
+              <p>We called this the chicken-egg-egg problem, because each of these 3 parts (ssh, ubuntu, chef-solo) could easily be upgraded on its own, but that would break the system unless the other 2 were also upgraded at the same time.</p>
+              <p>First I switched the product apps from upstart to systemd.  This theoretically allowed our apps to run on Ubuntu 18, if everything was set up properly.  It was set up by chef, which wouldn't run on modern Ubuntu.</p>
+              <p>So I re-implemented it in Ansible.  The head engineer wanted to move to ansible anyway, so I spent months with 2 windows up on my screen: reading chef on the left, writing ansible on the right.  This got rid of both the ssh problem and the chef version problem both at once.</p>
+              <p>Once I had a minimum viable subset of chef re-implemented in ansible, then I did the ubuntu upgrade in production to address security concerns in the old ssh, old chef, old ubuntu.  Then I completed the chef-to-ansible re-implementation project.</p>
+              <p>I completed one other major task here.  The running installation of the SaaS product was running in a bespoke VPC hand-crafted years ago by the head engineer and added to by hand ever since.  I created a series of rake tasks and terraform modules to roll out a new instance of the product in a different region.</p>
               <button
                 class="tools-toggle"
                 type="button"
@@ -242,6 +221,8 @@
                   <li>systemd</li>
                   <li>Ubuntu</li>
                   <li>AWS</li>
+                  <li>Terraform</li>
+                  <li>Rake</li>
                 </ul>
               </div>
             </div>
@@ -319,7 +300,7 @@
       </section>
 
       <section aria-label="Certifications">
-        <h2>Formal Credentials</h2>
+        <h2>Certifications</h2>
         <div class="story-list">
           <article class="story-item">
             <button class="story-toggle" type="button" aria-expanded="false" aria-controls="cert-aws">

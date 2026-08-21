@@ -207,8 +207,19 @@ h2 {
   margin: 0 0 0.7em;
 }
 
+.story-panel h3 {
+  margin: 0.9em 0 0.5em;
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.story-panel h3:first-child {
+  margin-top: 0;
+}
+
 .story-panel ul {
-  margin: 0.4rem 0 0;
+  margin: 0.4rem 0 0.8em;
   padding-left: 1.2rem;
 }
 
